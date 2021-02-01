@@ -36,3 +36,13 @@ instances of models.
 New models can be added to the dashboard by registering them in admin.py.
 
 
+Question 6
+----------
+"You're looking at question 38."
+"You're looking at the results of question 38."
+"You're voting on question 38."
+Attempting to put in a non-integer results in a 404.
+<int:question_id> would have to be altered to <slug:question_id>;
+slug matches any string of ASCII letters or numbers, hyphens, and underscores.
+In Django these are called "path converters".
+
