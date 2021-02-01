@@ -1,0 +1,30 @@
+CMPUT 404 Wi21
+Lab 4
+Hugh Bagan
+
+
+Question 1
+----------
+https://github.com/hughbagan/CMPUT404Wi21-lab4
+
+
+Question 2
+----------
+The browser displays a django start page; "the install worked successfully!"
+
+
+Question 3
+----------
+Root level is now a 404, and /polls/ displays the hello world message I wrote.
+
+
+Question 4
+----------
+Django migration is about safely updating the schema of our database. 
+The migrate command makes sure all of these changes are synchronized with any
+data that's already in the database. 
+Migrations need to be done whenever the models (ie. models.py) are changed, 
+since the models reflect the internal schema (Object Relation Mapping).
+This way, we can make changes to a database's schema in production and not 
+have to displace any of its data. 
+
