@@ -28,3 +28,11 @@ since the models reflect the internal schema (Object Relation Mapping).
 This way, we can make changes to a database's schema in production and not 
 have to displace any of its data. 
 
+
+Question 5
+----------
+I see the Django administration dashboard. Here I can add and change 
+instances of models.
+New models can be added to the dashboard by registering them in admin.py.
+
+
