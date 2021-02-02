@@ -46,3 +46,10 @@ Attempting to put in a non-integer results in a 404.
 slug matches any string of ASCII letters or numbers, hyphens, and underscores.
 In Django these are called "path converters".
 
+
+Question 7
+----------
+Hardcoding URLs into templates makes them difficult to change or edit later
+because you have to hunt down each one in the templates.
+Passing them as arguments in the views keeps all the hardcoded URLs together 
+where they can easily be changed.
