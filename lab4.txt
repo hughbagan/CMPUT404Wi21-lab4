@@ -53,3 +53,17 @@ Hardcoding URLs into templates makes them difficult to change or edit later
 because you have to hunt down each one in the templates.
 Passing them as arguments in the views keeps all the hardcoded URLs together 
 where they can easily be changed.
+
+
+Question 8
+----------
+Generic views are good for views that are otherwise simple and common, like
+getting data from the database according to a passed parameter and returning
+a rendered template. Generic ListView and DetailView are examples of this.
+See polls/views.py for annotations
+
+
+Optional:
+Part 5: testing
+Part 6: static files
+Part 7: customizing the admin site
