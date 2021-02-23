@@ -1,0 +1,23 @@
+CMPUT 404 Wi21
+Lab 6
+Hugh Bagan
+https://pure-meadow-02191.herokuapp.com
+
+
+Question 1
+----------
+Using git, I can add heroku as a remote repo and simply push to it.
+Github integration is available. This is useful for automatic CI/CD with 
+Github actions / workflows.
+Apparently Docker and other options are also available.
+
+
+Question 2
+----------
+A Procfile is used to declare an entry point. 
+In my case, I'm using mysite/wsgi.py, served by gunicorn. 
+
+
+Question 3
+----------
+https://pure-meadow-02191.herokuapp.com
